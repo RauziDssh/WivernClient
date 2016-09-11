@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>234, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAgIAQAAEABABoKAAAFgAAACgAAACAAAAAAAEAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAABAQEAb5I1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiEiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiEiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhEiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IRIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiAREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IhIiIiERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiISIiEREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiEiIRESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIhEiERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiEiIiIiIRIREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIhEiIiIiESERISIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIhIiIiIhERESEiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRIiIiIRERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiEREhEiERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiISIiIiERERIhERERESIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiISIiIhERESIRESERESIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERIiIhERESIRERERERIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERESERERERERIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERERERER
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERERERER
+        ESEREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERER
+        EREREREiIREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        ISIRERERERERIiIREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIhERERERESIiIREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIhERERERIiIiIRERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIhEREREiEiIiEhERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIhERERIhIiIRIhERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERESISIiESIRERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIREREiESIhEiERERESIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERIhEiERIRERERESIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERESIhERERERERERESIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIREREhIREREREREREREiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIREREhERERERESEREREi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERIREREREREh
+        ERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERESIRER
+        ERERIhERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRER
+        ESICERERESIRERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiEREREiIiEREREiEREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIhIRERERIiIiERERIhERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIhIiISERERESIiIhEREiIRERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhEREiIi
+        IiIiIiIiIiIiISIiERERESEiIiIREREiEREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAR
+        ERESIiIiEiISIiIiIiESIhEREREiIiIiIRERIhERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiEREREiIiIhIiEiIiEiIhEiIRERERIiIiIiERESIRERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIhERERIiIiISIRIiEhEiIREhERERESIiIiIhEREiEREREiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiISERERIiISESESIhIhEiEREREREREiIiIiIRERIhEREREiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiEhERESIiEhEhEiISIREhERERERERIiIiIhERESIRERERIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIRERESIhERERESEiIRERERERERESIiIiEREREhERERESIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiISERESIhEREREhEhIREREREREREiIiIRERERIRERERIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERESIRERERERIhERERERERERIiIiERERESERERES
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERESIRERERESIiERERERERESIiIhERERER
+        EREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERIRERERESIiEREREREREiIiER
+        ERERERERESEiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIBERERERERERERIiIiIhERERER
+        IiIhERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERESIiIiIR
+        ERERERIiIREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiISIiIiIREREREREREREi
+        IiIiERERERESIiERERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiISEiIgERERERERER
+        ERERESIiIhERERERERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiEhESIRERER
+        EREREREREREiIiIRERERERERERERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERER
+        ERERERERERERERERIiIiERERERERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IRERERERERERERERERERESIiIhERERERERERERERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIRERERERERERERERERERESIiIRERERERERERERERERERESIiIiIhIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiERERERERERERERERERERERERERERERERERERERERERESIiIiIiEiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIhERESIRERERERERERERERERERERERERERERERERERERIiIiIiISIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIhEiIiIiIiIRERERERERERERERERERERERERERERERERIiIiIREiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERERERERERERERERERERERERESIiIRESIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERERERERERERERERERERERESIiIR
+        EREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERERERERERERERERERER
+        IiIRERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERERERERERERERERERER
+        ERESIhERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERERERERERER
+        ERERERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERER
+        ERERERERERERERERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERER
+        EREREREREREREREREREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRER
+        ERERERERERERERERERERERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiERERERERERERERERERERERERERERERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIREREREREREREREREREREREREREREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiERERERERERERERERERERERERERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIRERERERERERERERERERERERERERERERERERERESIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiERERERERIiIRERERERERERERERERERERERERERESIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERESIiEREREREREREREREREREREREREREREiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERERIiIiERERERERERERESIRERERERERERERIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERESIiIhIRERERERERESIiIRERERERERERERIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERIiIiISERERERERERERIiIRERERERER
+        ERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERESIiIiIiERERERERERERIiIRER
+        ERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIREREREREREREREiIiIiIhERERERERERER
+        EiIREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERERESIiIiIiIhERERER
+        ERESIiIiIREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiEREREREREREREREiIiIiIiIR
+        ERERERIiIiIiIiEREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERERIiIi
+        IiIiIRIhERESIiIiIiIiEREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERER
+        ESIiIiIiIiIRIhERESIiIiIiIhERERERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERER
+        ERERERIiIiIiIiIiISIiERESIiIiIiIhERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        ERERERERERESIiIiIiIiIiIiIiIRESIiIiIiIRERERERERERERERESIiIiIiIiIiEiIiIiIiIiIiIiIi
+        IiIiIhERERERERERESIiIiIiIiIiIiIiIhESIiIiIiIRERERERERERERERERERIiIhEREiIiIiIiIiIi
+        IiIiIiIiIiIhEREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiEREREREREREREREREREREREREiIiIiIi
+        IiIiIiIiIiIiIiIiIhERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIhEREREREREREREREREREREREiIi
+        IiIiIiIiIiIiIiIiIiIiIiIRERERERERESIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERERERERERER
+        EiIiIiIiIiIiIiIiIiIiIiIiIiIiIREREREREREiIiIiIiIiIiIiIiIiIiIiIiIhERERERERERERERER
+        ERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiEREREREREREiIiIiIiIiIiIiIiIiIiIiIiIRERERERERER
+        ERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERERERIiIiIiIiIiIiIiIiIiIiIiIiERERER
+        ERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERESIiIiIiIiIiIiIiIiIiIiIiIR
+        ERERERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERESIiIiIiIiIiIiIiIiIi
+        IiIiERERERERERERERERERECIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhEREREREREREiIiIiIiIiIiIi
+        IiIiIiIiIhERERERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIREREREREREREiIiIiIi
+        IiIiIiIiIiIiIiEREREREREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERIi
+        IiIiIiIiIiIiIiIiIiIhEREREREREREREREREQIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERER
+        EREREiIiIiIiIiIiIiIiIiIiEREREREREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRER
+        EREREREREREiIiIiIiIiIiIiIiIiIhERERERERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiEREREREREREREREiIiIiIiIiIiIiIiIhERERERERERERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIhERERERERERERERERESIiIiIiIREREREREREREREREREREREREREiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiERERERERERERERERERIiIiIiIiIRERERERERERERERERERERERERIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIhERERERERERERERESIiIiIiIiIiIRERERERERERERERERERERERESIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIREREREREREREhIiIiIiIiIiIiIiIhEREREREREREREREREREREREiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERERERESIiIiIiIiIiIiIiIiIiIiERERERERERERERERERER
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERER
+        ERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIRERER
+        ERERERERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IREREREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERESIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIREREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERERESIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiEREREREREREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIRERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERERERIiIiIiIiIiIiIiIiIiIiIiIiIiERERERERAiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIhERERERERERIiIiIiIiIiIiIiIiIiIiIiIiERERERERIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERERIiIiIiIiIiIiIiIiIiIiIiIRERER
+        ERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIBEREREREREiIiIiIiIiIiIiIiIiIiIh
+        ERERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiEREREREREiIiIiIiIiIiIiIi
+        IiIiERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRERERERECIiIiIiIi
+        IiIiIiIiEREREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgERERERESIi
+        IiIiIiIiIiIiIRERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIRER
+        ERERIiIiIiIiIiIiIREiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiEREREREiIiIiIiIiISIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIhERERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIhERERIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIgERESIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiASIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi
+        IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiL/////////////////////////////
+        ///f////////////////////9/////////////////////v////////////////////5////////////
+        ////////+f///////////////////8P//////////////////fgH//////////////////3gP///////
+        ///////////9w////////////////////Mf/////////////////9/yP//////////////////P8i///
+        ///////////////7/Av/////////////////+fwD//////////////////hMA/////////////////38
+        DAH////////////////+/Awg/////////////////j4GAD////////////////8AAgAf////////////
+        ////gAAAD////////////////4AAAgP////////////////gAAOB////////////////+wADwP//////
+        ///////////AA+B/////////////////4AfwH/////////////////AN9A/////////////////4DeYH
+        ////////////////+A3mA/////////////////wM5gH////////////////8DMQA////////////////
+        /A4AAH////////////////wKAAB////////////////+BAAgP////////////////gQAID//////////
+        //////4GADA////////////////+A0AwH////////////////gPgMB////////////////QD8DAf////
+        //////////70A/BwH//////////B///+8AvwMB//////////gH93/nAP+DAf/////////8B/d95wD/gw
+        H//////////Af2dOIA/4MB//////////0D0nZgAP+DAP/////////9A9J2IAD/AwD//////////wHAFw
+        AA/gIA//////////+g4BKAAPwCAf//////////wGADAAD8AgH//////////+AwA8AA/AAB//////////
+        /gCAHgAPgAAv//////////wAAD/AD4AAD//////////8AAA/wAeAAB/////////+/wAAP8AHgAA/////
+        ////+vAAAA/AAAAAf/////////owAAAPwAAAAH/////////4AAAAD8AAAAD/////////+AAAAA/AAAAA
+        H/////////wAAAAHwAAAAH/f///////8AAAAAAAAAAH/v////////AwAAAAAAAAD/3////////5/+AAA
+        AAAAAfx///////////wAAAAAAAHw///////////+AAAAAAAHwP///////////gAAAAAADwD/////////
+        //4AAAAAAHAA///////////+AAAAAAAAAf///////////gAAAAAAAAH///////////4AAAAAAAAB////
+        ///////+AAAAAAAAAf///////////gAAAAAAAAH///////////wAAAAAAAAB///////////8AAAAAAAA
+        Af//////////+AAAAAAAAAH///////////gAeAAAAAAA///////////wAHgAAAAAAP//////////4AD8
+        AAAwAAD//////////8AA/QAA+AAAf/////////+AAf0AADwAAH/////////8AAH/gAAeAAA/////////
+        wAAB/4AABwAAP////////gAAA//AAH+AAB////////8AAAP/wAf/gAAP////////gAAD/+YH/8AAB///
+        /////8AAA//zA//AAAH////////gAAf/+8H/4AAAf///////8AAH///w/+AAAA//9/////AAA////H/w
+        AAAAfB/////4AAP/////8AAAAAB//////AAD//////AAAAAB//////wAA//////gAAAAB//////+AAP/
+        ////4AAAAA///////gAB/////+AAAAA///////4AAf/////gAAAAf//////+AAH/////wAAAAf//////
+        /gAA/////8AAAAH///////4AAP/////AAAAD///////+AAB/////gAAAB////////gAAf////4AAAAf/
+        //////4AAB////8AAAAP///////+AAAP////AAAAD////////gAAB////AAAAA////////4AAAA/+AAA
+        AAAP///////8AAAAf/wAAAAAD////////AAAA//+AAAAAA////////wAAL///4AAAAAP///////4AAH/
+        ///8AAAAD///////8AAD/////+AAAA////////AAA//////wAAAH///////gAAf/////+AAAB///////
+        wAA///////+AAAP//////4AA////////8AAB//////+AAf////////wAAf/////+AAf/////////AAD/
+        /////gAP/////////4AAf/////gAf//////////wAD/////wAf//////////+AAP////4Af/////////
+        //8AB////8A/////////////wAH///8B//////////////AA///+D//////////////+AD//+P//////
+        /////////8AP/+/////////////////4A////////////////////4D////////////////////4H///
+        //////////////////n//////////////////////////////////////////w==
+</value>
+  </data>
+</root>
